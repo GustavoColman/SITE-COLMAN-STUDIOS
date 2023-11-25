@@ -2,7 +2,10 @@
 
 /*content*/
 content {
-    max-width: 1600px ;
+  max-width: 1600px ;
+  
+    
+    
 }
 
 header {
@@ -85,6 +88,11 @@ body{
   user-select: none;
 }
 
+.prev {
+  left: 0;
+  border-radius: 0 3px 3px 0;
+}
+
 /* Position the "next button" to the right */
 .next {
   right: 0;
@@ -98,8 +106,11 @@ body{
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
+  color: #ffffff;
+  text-shadow: 2px 0 #0f0f0f, -2px 0 #0f0f0f, 0 2px #0f0f0f, 0 -2px #0f0f0f,
+               1px 1px #0f0f0f, -1px -1px #0f0f0f, 1px -1px #0f0f0f, -1px 1px #0f0f0f;
+  
+  font-size: 30px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -178,6 +189,8 @@ h1{
   font-family: 'oswald', sans-serif;
 }
 
-h2{ font-size: 1.5em;
+h2{ 
+  font-size: 1.5em;
   font-family:  sans-serif;
+  padding: 25px 50px;
 }
