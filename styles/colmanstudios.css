@@ -194,3 +194,12 @@ h2{
   font-family:  sans-serif;
   padding: 25px 50px;
 }
+h4{ 
+  font-size: 1.1em;
+  font-family:  sans-serif;
+  padding: 25px 50px;
+  text-shadow: 2px 0 #ffffff, -2px 0 #ffffff, 0 2px #ffffff, 0 -2px #ffffff,
+               1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff, -1px 1px #ffffff;
+}
+/*drawing area*/
+
